@@ -52,6 +52,9 @@
             this.Max = new System.Windows.Forms.TextBox();
             this.Min = new System.Windows.Forms.TextBox();
             this.Numstudent = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -228,30 +231,60 @@
             // 
             // Max
             // 
-            this.Max.Location = new System.Drawing.Point(238, 307);
+            this.Max.Location = new System.Drawing.Point(501, 303);
             this.Max.Name = "Max";
             this.Max.Size = new System.Drawing.Size(125, 27);
             this.Max.TabIndex = 14;
             // 
             // Min
             // 
-            this.Min.Location = new System.Drawing.Point(369, 307);
+            this.Min.Location = new System.Drawing.Point(501, 336);
             this.Min.Name = "Min";
             this.Min.Size = new System.Drawing.Size(125, 27);
             this.Min.TabIndex = 15;
             // 
             // Numstudent
             // 
-            this.Numstudent.Location = new System.Drawing.Point(238, 340);
+            this.Numstudent.Location = new System.Drawing.Point(501, 369);
             this.Numstudent.Name = "Numstudent";
             this.Numstudent.Size = new System.Drawing.Size(125, 27);
             this.Numstudent.TabIndex = 16;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(382, 306);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(81, 20);
+            this.label7.TabIndex = 17;
+            this.label7.Text = "Max Grade";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(385, 339);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(78, 20);
+            this.label8.TabIndex = 18;
+            this.label8.Text = "Min Grade";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(359, 372);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(136, 20);
+            this.label9.TabIndex = 19;
+            this.label9.Text = "Number of Student";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.Numstudent);
             this.Controls.Add(this.Min);
             this.Controls.Add(this.Max);
@@ -304,5 +337,8 @@
         private TextBox Max;
         private TextBox Min;
         private TextBox Numstudent;
+        private Label label7;
+        private Label label8;
+        private Label label9;
     }
 }
